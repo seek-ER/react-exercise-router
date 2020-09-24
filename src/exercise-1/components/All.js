@@ -24,9 +24,9 @@ class All extends Component {
                         <Switch>
                             <Route exact path={'/'} component={Home}/>
                             <Route exact path={'/products'} component={Products}/>
-                            <Route path={'/products/:1'} component={Products_1}/>
-                            <Route path={'/products/:2'} component={Products_2}/>
-                            <Route path={'/products/:3'} component={Products_3}/>
+                            <Route path={'/products/1'} component={Products_1}/>
+                            <Route path={'/products/2'} component={Products_2}/>
+                            <Route path={'/products/3'} component={Products_3}/>
                             <Route path={'/my-profile'} component={Profiles}/>
                             <Route path={'/about-us'} component={AboutUs}/>
                             <Redirect from={'/goods'} to={'/products'}/>
