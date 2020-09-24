@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 const AboutUs = () => {
     return (
         <div>
-            <p>This is a beautiful home page.</p>
-            <p>And the url is '/'.</p>
+            <p>Company kldj ldjs l </p>
+            <p>afid sjalkfa lk;jsalkf</p>
             <br/>
             <p>For more info</p>
             <p>view our <Link to={'/'}> website</Link></p>
